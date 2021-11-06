@@ -1,0 +1,14 @@
+{
+	"name": "magic-link",
+	"description": "add link for uploaded file in send.magicode.me before upload completed",
+	"background": {
+		"scripts": ["background.js"]
+		},
+	"permissions": [
+        "activeTab", 
+		"webRequest",
+		"*://send.magicode.me/*" 
+	 ],
+	"version": "1.1",
+	"manifest_version": 2
+}
